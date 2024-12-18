@@ -44,4 +44,11 @@
             </x-primary-button>
         </div>
     </form>
+
+    <!-- Login as Admin -->
+    <div class="flex justify-center mt-6">
+        <a href="{{ route('admin.login') }}" style="background-color: #FF5722; color: white; padding: 10px 20px; border: none; border-radius: 5px; text-decoration: none; cursor: pointer;">
+            {{ __('Login as Admin') }}
+        </a>
+    </div>
 </x-guest-layout>
