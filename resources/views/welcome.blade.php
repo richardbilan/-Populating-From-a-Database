@@ -70,11 +70,13 @@
             <div class="row">
                 <div class="card">
                     <i class="bx bx-spreadsheet bx-md"></i>
+                    <img src="{{asset('Welcome/p1.jpg') }}" alt="Example Image" width="300" height="200">
                     <h2>Expense Tracking</h2>
                     <p>Easily record and categorize your daily spending to understand where your money goes.</p>
                 </div>
                 <div class="card">
                     <i class="bx bx-money bx-md"></i>
+                    <img src="{{asset('Welcome/p4.jpg') }}" alt="Example Image" width="300" height="200">
                     <h2>Budget Planning</h2>
                     <p>Plan your expenses effectively and allocate your resources wisely with intuitive budget planning tools.</p>
                 </div>
@@ -82,11 +84,13 @@
         <div class="row">
                 <div class="card">
                     <i class="bx bx-pie-chart-alt-2 bx-md"></i>
+                    <img src="{{asset('Welcome/p2.jpg') }}" alt="Example Image" width="300" height="200">
                     <h2>Savings Goals</h2>
                     <p>Define savings milestones and monitor your progress with a visual goal tracker.</p>
                 </div>
                 <div class="card">
                     <i class="bx bx-wallet bx-md"></i>
+                    <img src="{{asset('Welcome/p3.jpg') }}" alt="Example Image" width="300" height="200">
                     <h2>Monthly and Yearly Reports</h2>
                     <p>Review your progress with comprehensive monthly and yearly summaries, complete with visual insights and detailed analysis.</p>
                 </div>
@@ -96,4 +100,59 @@
     </div>
                   
     </body>
+
+    <footer class="footer">
+  <div class="footer-social">
+    <p>Get connected with us on social networks:</p>
+    <div>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">Google</a>
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+    </div>
+  </div>
+  <div class="footer-content">
+    <div>
+      <h5>Company Name</h5>
+      <p>
+        Here you can use rows and columns to organize your footer content.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </p>
+    </div>
+    <div>
+      <h5>Products</h5>
+      <ul>
+        <li><a href="#">MDBootstrap</a></li>
+        <li><a href="#">MDWordPress</a></li>
+        <li><a href="#">BrandFlow</a></li>
+        <li><a href="#">Bootstrap Angular</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Useful Links</h5>
+      <ul>
+        <li><a href="#">Your Account</a></li>
+        <li><a href="#">Become an Affiliate</a></li>
+        <li><a href="#">Shipping Rates</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Contact</h5>
+      <ul>
+        <li><i class="fa fa-map-marker"></i> New York, NY 10012, US</li>
+        <li><i class="fa fa-envelope"></i> info@example.com</li>
+        <li><i class="fa fa-phone"></i> + 01 234 567 88</li>
+        <li><i class="fa fa-print"></i> + 01 234 567 89</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2020 Copyright: MDBootstrap.com</p>
+  </div>
+</footer>
+
+    
 </html>

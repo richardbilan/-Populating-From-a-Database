@@ -106,3 +106,97 @@
 .row:nth-child(2) .card:nth-child(2):hover {
     background: linear-gradient(rgba(17, 24, 39, 0.8), rgba(17, 24, 39, 0.8)), url('/images/p4.jpg');
 }
+
+.footer {
+    width: 100%;
+    /* Full width of the screen */
+    background: #111827;
+    /* Dark gray background */
+    color: white;
+    /* White text for contrast */
+    padding: 50px 20px;
+    /* Generous padding for a larger footer */
+    box-sizing: border-box;
+    /* Include padding in width/height */
+}
+
+.footer-social {
+    width: 100%;
+    /* Full width for social section */
+    background: #1f2937;
+    /* Slightly lighter background for distinction */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-social a {
+    margin: 0 15px;
+    /* Increase spacing between links */
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    /* Slightly larger font for visibility */
+}
+
+.footer-social a:hover {
+    text-decoration: underline;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow wrapping on smaller screens */
+    justify-content: space-between;
+    /* Spread items evenly */
+    gap: 20px;
+    /* Add spacing between sections */
+    padding: 40px 20px;
+}
+
+.footer-content div {
+    flex: 1;
+    /* Equal space for all sections */
+    min-width: 200px;
+    /* Minimum width for responsive design */
+}
+
+.footer-content div h5 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.footer-content div ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content div ul li {
+    margin-bottom: 10px;
+}
+
+.footer-content div ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.footer-content div ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    width: 100%;
+    /* Full width for bottom section */
+    background-color: #000;
+    /* Black background for contrast */
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 20px;
+    /* Increased padding for better spacing */
+    font-size: 0.9em;
+    /* Slightly smaller text */
+}
+
+.footer-bottom p {
+    margin: 0;
+}
